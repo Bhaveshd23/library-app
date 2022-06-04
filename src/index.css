@@ -5,9 +5,71 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkcyan;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-container {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+  width: 40%;
+  margin: 10px;
+  /* color: white; */
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: beige;
+  height: 100%;
+}
+
+.btn {
+  margin: 14px;
+}
+
+.mydiv {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* color: wheat; */
+}
+
+.buttons {
+  display: flex;
+  margin: 20px 150px;
+}
+
+.btn {
+  font-size: 25px;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  background-color: rgb(151, 187, 218);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
 }
